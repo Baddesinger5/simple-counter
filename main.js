@@ -1,4 +1,4 @@
-let countDate = new Date("May 30, 2021 15:12:25").getTime();
+let countDate = new Date("Feb 22, 2021 01:00:00").getTime();
 
 let result = setInterval(function() {
 
@@ -16,8 +16,14 @@ let result = setInterval(function() {
     document.querySelector('#min').innerHTML = minutes;
     document.querySelector('#sec').innerHTML = seconds;
     
+    let video = document.querySelector('iframe');
+    video.style.display = 'none';
+
     if (distance < 0) {
-        clearInterval(x);
-        // document.getElementById("demo").innerHTML = "EXPIRED";
+        clearInterval(result);
+        let mainContent = document.querySelector('.conter-inner');
+        mainContent.style.display = 'none';
+
+        video.style.display = 'block';
     }
 }, 1000);
