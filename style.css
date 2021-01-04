@@ -29,9 +29,13 @@ body {
   transform: translate(-50%, -50%);
 }
 .main .conter-inner .days {
-  border: 1px solid #ffffff;
-  border-right: none;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
   padding: 50px 50px;
+  width: 250px;
+  height: 250px;
+  text-align: center;
 }
 .main .conter-inner .days span {
   color: #ffffff;
@@ -97,4 +101,217 @@ body {
   font-size: 30px;
   text-align: center;
   text-transform: capitalize;
+}
+
+/*========= add video ======*/
+iframe {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 860px;
+  height: 515px;
+}
+
+/*==================*/
+@media only screen and (max-width: 1020px) {
+  .main .conter-inner {
+    margin: 0 auto;
+  }
+  .main .conter-inner .days {
+    padding: 40px 40px;
+    width: 200px;
+    height: 200px;
+  }
+  .main .conter-inner .days span {
+    font-size: 80px;
+  }
+  .main .conter-inner .hours {
+    padding: 40px 40px;
+    width: 200px;
+    height: 200px;
+  }
+  .main .conter-inner .hours span {
+    font-size: 80px;
+  }
+  .main .conter-inner .minutes {
+    padding: 40px 40px;
+    width: 200px;
+    height: 200px;
+  }
+  .main .conter-inner .minutes span {
+    font-size: 80px;
+  }
+  .main .conter-inner .seconds {
+    padding: 40px 40px;
+    width: 200px;
+    height: 200px;
+  }
+  .main .conter-inner .seconds span {
+    font-size: 80px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  iframe {
+    width: 660px;
+    height: 415px;
+  }
+}
+@media only screen and (max-width: 830px) {
+  .main .conter-inner .days {
+    padding: 30px 30px;
+    width: 160px;
+    height: 160px;
+  }
+  .main .conter-inner .days span {
+    font-size: 65px;
+  }
+  .main .conter-inner .hours {
+    padding: 30px 30px;
+    width: 160px;
+    height: 160px;
+  }
+  .main .conter-inner .hours span {
+    font-size: 65px;
+  }
+  .main .conter-inner .minutes {
+    padding: 30px 30px;
+    width: 160px;
+    height: 160px;
+  }
+  .main .conter-inner .minutes span {
+    font-size: 65px;
+  }
+  .main .conter-inner .seconds {
+    padding: 30px 30px;
+    width: 160px;
+    height: 160px;
+  }
+  .main .conter-inner .seconds span {
+    font-size: 65px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .main .conter-inner .days {
+    padding: 15px 15px;
+    width: 130px;
+    height: 100px;
+  }
+  .main .conter-inner .days span {
+    font-size: 35px;
+  }
+  .main .conter-inner .hours {
+    padding: 15px 15px;
+    width: 130px;
+    height: 100px;
+  }
+  .main .conter-inner .hours span {
+    font-size: 35px;
+  }
+  .main .conter-inner .minutes {
+    padding: 15px 15px;
+    width: 130px;
+    height: 100px;
+  }
+  .main .conter-inner .minutes span {
+    font-size: 35px;
+  }
+  .main .conter-inner .seconds {
+    padding: 15px 15px;
+    width: 130px;
+    height: 100px;
+  }
+  .main .conter-inner .seconds span {
+    font-size: 35px;
+  }
+
+  iframe {
+    width: 500px;
+    height: 340px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .main .conter-inner {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0;
+  }
+  .main .conter-inner .days {
+    border: none;
+    padding: 40px 40px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+  .main .conter-inner .days span {
+    font-size: 35px;
+  }
+  .main .conter-inner .days p {
+    text-align: center;
+  }
+  .main .conter-inner .hours {
+    border: none;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 40px 40px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+  .main .conter-inner .hours span {
+    font-size: 35px;
+  }
+  .main .conter-inner .minutes {
+    padding: 40px 40px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+  }
+  .main .conter-inner .minutes span {
+    font-size: 35px;
+  }
+  .main .conter-inner .minutes p {
+    margin-left: -12px;
+  }
+  .main .conter-inner .seconds {
+    border: none;
+    padding: 40px 40px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+  .main .conter-inner .seconds span {
+    font-size: 35px;
+  }
+  .main .conter-inner .seconds p {
+    margin-left: -13px;
+  }
+
+  iframe {
+    width: 450px;
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  iframe {
+    width: 350px;
+    height: 190px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  iframe {
+    width: 310px;
+    height: 170px;
+  }
 }
