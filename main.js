@@ -1,4 +1,4 @@
-let countDate = new Date("Feb 22, 2021 01:00:00").getTime();
+let countDate = new Date("Feb 22, 2021 01:01:00").getTime();
 
 let result = setInterval(function() {
 
