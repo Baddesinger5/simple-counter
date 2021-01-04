@@ -10,10 +10,9 @@ body {
   }
 /*================================*/
 .main {
-    
     & .video-bg {
         & video {
-            -o-object-fit: cover;
+        -o-object-fit: cover;
         object-fit: cover;
         position: fixed;
         width: 100%;
