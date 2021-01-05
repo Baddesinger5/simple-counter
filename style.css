@@ -252,7 +252,8 @@ iframe {
   }
   .main .conter-inner .days {
     border: none;
-    padding: 0 40px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 20px;
     width: 150px;
     height: 100px;
