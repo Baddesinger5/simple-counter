@@ -265,14 +265,7 @@ iframe {
             display: block;
             justify-content: center;
             align-items: center;
-            position: absolute;
-            z-index: 5;
-            width: 100%;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
             text-align: center;
-            margin: 0;
             & .days {
                 border: none;
                 padding: 40px 40px;
@@ -284,6 +277,8 @@ iframe {
                 }
                 & p {
                     text-align: center;
+                    margin: 0 auto;
+                    width: 100%;
                 }
             }
             & .hours {
@@ -297,32 +292,38 @@ iframe {
                 & span {
                     font-size: 35px;
                 }
+                & p {
+                    text-align: center;
+                    margin: 0 auto;
+                    width: 100%;
+                }
             }
             & .minutes {
-                padding: 40px 40px;
+                padding: 0;
+                padding-left: 27px;
+                padding-right: 27px;
+                padding-top: 37px;
                 width: 150px;
-                height: 150px;
+                height: 140px;
                 margin: 0 auto;
                 border: none;
                 border-bottom: 1px solid #ffffff;
+                text-align: center;
                 & span {
                     font-size: 35px;
-                }
-                & p {
-                    margin-left: -12px;
                 }
             }
             & .seconds {
                 border: none;
-                padding: 40px 40px;
+                padding: 0;
+                padding-left: 27px;
+                padding-right: 27px;
+                padding-top: 37px;
                 width: 150px;
-                height: 150px;
+                height: 140px;
                 margin: 0 auto;
                 & span {
                     font-size: 35px;
-                }
-                & p {
-                    margin-left: -13px;
                 }
             }
             
