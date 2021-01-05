@@ -268,9 +268,10 @@ iframe {
             text-align: center;
             & .days {
                 border: none;
-                padding: 40px 40px;
+                padding: 0 40px;
+                padding-top: 20px;
                 width: 150px;
-                height: 150px;
+                height: 100px;
                 margin: 0 auto;
                 & span {
                     font-size: 35px;
@@ -302,7 +303,7 @@ iframe {
                 padding: 0;
                 padding-left: 27px;
                 padding-right: 27px;
-                padding-top: 37px;
+                padding-top: 30px;
                 width: 150px;
                 height: 140px;
                 margin: 0 auto;
@@ -312,18 +313,27 @@ iframe {
                 & span {
                     font-size: 35px;
                 }
+                & p {
+                    width: 100%;
+                    margin: 0 auto;
+                }
             }
             & .seconds {
                 border: none;
                 padding: 0;
                 padding-left: 27px;
                 padding-right: 27px;
-                padding-top: 37px;
+                padding-top: 30px;
                 width: 150px;
                 height: 140px;
                 margin: 0 auto;
+                text-align: center;
                 & span {
                     font-size: 35px;
+                }
+                & p {
+                    width: 100%;
+                    margin: 0 auto;
                 }
             }
             
@@ -335,6 +345,43 @@ iframe {
     }
 }
 @media only screen and (max-width: 450px) {
+    .main {
+        & .conter-inner{
+            & .days {
+                & span {
+                    font-size: 30px;
+                }
+                & p {
+                    font-size: 20px;
+                }
+            }
+            & .hours {
+                & span {
+                    font-size: 30px;
+                }
+                & p {
+                    font-size: 20px;
+                }
+            }
+            & .minutes {
+                & span {
+                    font-size: 30px;
+                }
+                & p {
+                    font-size: 20px;
+                }
+            }
+            & .seconds {
+                & span {
+                    font-size: 30px;
+                }
+                & p {
+                    font-size: 20px;
+                }
+            }
+            
+        }
+    }
     iframe {
         width: 350px;
         height: 190px;

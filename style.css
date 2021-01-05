@@ -252,9 +252,10 @@ iframe {
   }
   .main .conter-inner .days {
     border: none;
-    padding: 40px 40px;
+    padding: 0 40px;
+    padding-top: 20px;
     width: 150px;
-    height: 150px;
+    height: 100px;
     margin: 0 auto;
   }
   .main .conter-inner .days span {
@@ -286,7 +287,7 @@ iframe {
     padding: 0;
     padding-left: 27px;
     padding-right: 27px;
-    padding-top: 37px;
+    padding-top: 30px;
     width: 150px;
     height: 140px;
     margin: 0 auto;
@@ -297,18 +298,27 @@ iframe {
   .main .conter-inner .minutes span {
     font-size: 35px;
   }
+  .main .conter-inner .minutes p {
+    width: 100%;
+    margin: 0 auto;
+  }
   .main .conter-inner .seconds {
     border: none;
     padding: 0;
     padding-left: 27px;
     padding-right: 27px;
-    padding-top: 37px;
+    padding-top: 30px;
     width: 150px;
     height: 140px;
     margin: 0 auto;
+    text-align: center;
   }
   .main .conter-inner .seconds span {
     font-size: 35px;
+  }
+  .main .conter-inner .seconds p {
+    width: 100%;
+    margin: 0 auto;
   }
 
   iframe {
@@ -317,6 +327,31 @@ iframe {
   }
 }
 @media only screen and (max-width: 450px) {
+  .main .conter-inner .days span {
+    font-size: 30px;
+  }
+  .main .conter-inner .days p {
+    font-size: 20px;
+  }
+  .main .conter-inner .hours span {
+    font-size: 30px;
+  }
+  .main .conter-inner .hours p {
+    font-size: 20px;
+  }
+  .main .conter-inner .minutes span {
+    font-size: 30px;
+  }
+  .main .conter-inner .minutes p {
+    font-size: 20px;
+  }
+  .main .conter-inner .seconds span {
+    font-size: 30px;
+  }
+  .main .conter-inner .seconds p {
+    font-size: 20px;
+  }
+
   iframe {
     width: 350px;
     height: 190px;
